@@ -1,6 +1,7 @@
-header{
+h1{
     color: darkviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Tahoma;
+    
 }
 footer{
    background-color:indigo ;
@@ -8,6 +9,7 @@ footer{
 }   
 nav {
 	float: right;
+    border: 2px solid powderblue
 }
 	nav ul {
 		margin: 0;
@@ -19,6 +21,7 @@ nav {
 	nav ul li {
             display:inline-block;
 			line-height: 80px;
+            border: 2px solid powderblue
 		}
 			
     nav ul li a {
@@ -28,7 +31,9 @@ nav {
 	}
 			
 	nav ul li a:hover {
-		background: #0b76a6;
+		background: #d19bf9;
 	}
-
+    section {
+        border: 2px solid powderblue;
+      }
 
