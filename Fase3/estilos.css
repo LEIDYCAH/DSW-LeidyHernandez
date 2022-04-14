@@ -6,34 +6,40 @@ h1{
 footer{
    background-color:indigo ;
    color: azure ;
-}   
-nav {
-	float: right;
-    border: 2px solid powderblue
+}  
+nav { 
+	display: block;
+	position:relative; 
+	margin:0 auto 20px;
+	background-color:#a47eb6;
+	text-decoration: none;
+	text-decoration-color: #000000;
+	border-left:1px solid rgb(0, 0, 0); 
+	border-right:1px solid rgb(0, 0, 0);
 }
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-        display:inline-block;
-        }
-	nav ul li {
-            display:inline-block;
-			line-height: 80px;
-            border: 2px solid powderblue
-		}
-			
-    nav ul li a {
-	    display: inline-block;
-		padding: 0 10px;
-		text-decoration: none;
-	}
-			
-	nav ul li a:hover {
-		background: #d19bf9;
-	}
-    section {
-        border: 2px solid powderblue;
-      }
+nav ul {
+	display: flex;
+	list-style: none;
+	position:relative;
+	padding:0;
+	margin: 0;
+	left: 0;
+}
+nav a {
+	padding:10px 20px;
+	display: flex;
+}
+nav a:hover {
+	background-color: #3c1072;
+}
+nav ul li ul {
+	display: none;
+	float:none;
+}
+nav ul li a:hover + ul, nav ul li ul:hover {
+	display: block;
+	float:none;
+	border-right:none;
+}
+
 
