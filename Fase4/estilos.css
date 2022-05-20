@@ -41,3 +41,46 @@ right: 40%;
   @media (min-width: 1200px) {
 	body { font-size: 17px; }
   }
+body {
+	background-color: indigo;
+}
+footer {
+	background: rgb(31, 31, 31);
+	color: aliceblue;
+}
+
+h1,h2{
+	-webkit-text-stroke: azure;
+	color: rgb(102, 9, 168); 
+}
+
+.icon-facebook2:before, .icon-github:before{
+	content: "\ea91";
+	color: white;
+}
+
+article,section {
+ position: relative;
+  top: 20px;
+ left: 10px; 
+}
+audio {
+position: sticky;
+top: 20px;
+left: 40%;
+right: 40%;
+}
+
+@media (min-width: 768px) {
+	body { font-size: 15px; }
+  }
+  
+  /* escritorio normales */
+  @media (min-width: 992px) {
+	body { font-size: 16px; }
+  }
+  
+  /* pantallas grandes */
+  @media (min-width: 1200px) {
+	body { font-size: 17px; }
+  }

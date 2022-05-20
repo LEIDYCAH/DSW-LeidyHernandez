@@ -4,8 +4,8 @@ h1,h2{
 }
 footer{
 	background-color:#7f00b2;
-   color: azure ;
-   border-top: rgb(252, 250, 250) 5px dashed;
+    color: azure ;
+    border-top: rgb(252, 250, 250) 5px dashed;
 }  
 nav{
 	margin: 0 auto;
@@ -51,10 +51,24 @@ body {
 	content: "\ea91";
 	color: white;
 }
-section,article {
+article,section {
  margin: 30px;
 }
-
+audio {
+position: sticky;
+top: 20px;
+left: 40%;
+}
+div {
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+img {
+	position: fixed;
+	left: 40%;
+	top: 22%;
+}
 
 
 
